@@ -1,0 +1,11 @@
+name = "imba-cloudflare-pages"
+pages_build_output_dir = "./dist"
+compatibility_date = "2024-07-02"
+
+[vars]
+NODE_VERSION = "20.5.1"
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "imba-todo"
+database_id = "e1f901bb-e835-4e71-b468-1cb7b9fa468c"
